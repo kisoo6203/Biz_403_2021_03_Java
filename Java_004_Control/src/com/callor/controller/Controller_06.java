@@ -54,7 +54,7 @@ public class Controller_06 {
 
 		int num1 = 0;
 		Integer num2 = 0;
-		Integer num3 = new Integer();
+		//Integer num3 = new Integer();
 		
 		String str1 = "";
 		str1 = "홍길동";
