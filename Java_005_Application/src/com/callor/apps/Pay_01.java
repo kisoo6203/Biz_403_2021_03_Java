@@ -26,5 +26,14 @@ public class Pay_01 {
 		nPay %= nPaper;
 		nPaper /= 2;
 		
+		int A = 1000;
+		int B = 15;
+		int C = 1000;
+		
+		
+		A/=B;
+		C%=B;
+		System.out.println(A);
+		System.out.println(C);
 	}
 }

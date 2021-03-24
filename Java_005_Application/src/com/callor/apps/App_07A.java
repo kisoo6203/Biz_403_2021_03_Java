@@ -30,5 +30,5 @@ public class App_07A {
 		
 		System.out.println(intNum + " 는 " + nCount + "자릿수");
 		
-	}
+	
 }
