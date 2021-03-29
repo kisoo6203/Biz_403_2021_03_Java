@@ -44,7 +44,7 @@ public class NumberServiceV1 {
 			}
 		}
 		if(num < intNum) {
-			System.out.printf("입력한 정수 %d는 소수가 아님",intNum);
+			System.out.printf("입력한 정수 %d는 소수가 아님\n",intNum);
 		} else {
 			System.out.printf("입력한 정수 %d는 소수\n",intNum);
 		}
