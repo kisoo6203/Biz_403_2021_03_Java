@@ -30,7 +30,7 @@ public class EvenServiceV3 extends EvenServiceV2 {
 		}
 	}
 	public void printEven() {
-		
+		System.out.println("================================");
 		int nCount = 0;
 		for(int i = 0 ; i < intNums.length ; i ++) {
 			if(intNums[i] % 2 == 0) {

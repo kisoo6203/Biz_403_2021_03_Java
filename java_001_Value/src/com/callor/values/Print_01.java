@@ -50,7 +50,7 @@ public class Print_01 {
 		
 		System.out.println();
 		System.out.println("3 x 3 = " + 3 * 3);
-		System.out.println("25 x 33 = " + 253 * 33);
+		System.out.println("25 x 33 = " + 25 * 33);
 		
 		System.out.printf("%d x %d = %d\n" ,3, 3, 3 * 3);
 		System.out.printf("%d x %d = %d\n" ,23, 33, 23 * 33);

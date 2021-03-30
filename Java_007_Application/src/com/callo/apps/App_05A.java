@@ -10,6 +10,7 @@ public class App_05A {
 		
 		esV2.makeNums();
 		esV2.printEven();
+		esV2.sumEven();
 		
 		
 	}

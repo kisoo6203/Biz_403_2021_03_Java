@@ -9,13 +9,13 @@ public class App_07 {
 		
 		int intNum = 93929323;
 		int nCount = 0;
-		System.out.printf("정수 %d는", intNum);
+		System.out.printf("정수 %d는\n", intNum);
 		while(intNum > 0) {
 			nCount++;
 			intNum /= 10;
 			
 		}
-		System.out.println("======");
+		System.out.println("==============");
 		System.out.printf("%d 자릿수의 숫자", nCount);
 		
 	}

@@ -11,8 +11,8 @@ public class Keyinput_04 {
 		int intSum = 0;
 		
 		for(int i = 0 ; i < intnum.length ; i++) {
-		System.out.printf("%d 번째 정수\n", i + 1);
-		System.out.printf("정수 >> ", i + 1);
+		System.out.printf("%d 번째 정수>> ", i + 1);
+//		System.out.printf("정수 >> ", i + 1);
 
 		int num1 = scan.nextInt();
         

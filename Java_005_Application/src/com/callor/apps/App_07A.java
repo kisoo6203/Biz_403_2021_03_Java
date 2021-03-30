@@ -24,11 +24,14 @@ public class App_07A {
 			// 이 명령 대신 조건문을 반대로 설정하여
 			// while(조건)으로 실행한다
 			// if(intNum < 0 ) {
-			// break;
+			 break;
+			System.out.printf(intNum + " 는 ",  nCount + " 자릿수");
+			
 			}
+		
 		}
 		
-		System.out.println(intNum + " 는 " + nCount + "자릿수");
+		
 		
 	
 }

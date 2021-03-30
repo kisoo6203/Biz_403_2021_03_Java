@@ -25,6 +25,12 @@ public class Varriable_06 {
 		
 		double num5 = 30.0;
 		Double num6 = 30.0;
+		System.out.println(numLong1);
+		System.out.println(numLong2);
+		System.out.println(num3);
+		System.out.println(num4);
+		System.out.println(num5);
+		System.out.println(num6);
 		
 		
 	}

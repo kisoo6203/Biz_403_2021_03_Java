@@ -36,7 +36,7 @@ public class NumberServiceV1 {
 		
 	}
 	public void checkPrime() {
-		System.out.println(LinesService.dLines(50));
+		System.out.println(LinesService.sLines(50));
 		int num = 0;
 		for(num = 2; num < intNum ; num++) {
 			if(intNum % num == 0) {

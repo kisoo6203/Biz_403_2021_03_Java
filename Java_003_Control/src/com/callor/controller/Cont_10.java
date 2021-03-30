@@ -10,7 +10,7 @@ public class Cont_10 {
 		if(intNum % 3 == 0) {
 			System.out.println(intNum + "는 3의 배수");
 		} else if(intNum % 2 == 0){
-			System.out.println(intNum + "는 3의 배수");
+			System.out.println(intNum + "는 2의 배수");
 		} else if(intNum % 5 == 0) {
 			System.out.println(intNum + "는 5의 배수");
 		} else {

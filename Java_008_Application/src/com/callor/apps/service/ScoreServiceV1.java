@@ -54,10 +54,10 @@ public class ScoreServiceV1 {
     		intSum[j] += intMath[j];
     	}
     	System.out.println("---------------------------");
-    	for(int k = 0 ; k < intnum.length ; k++) {
-    		floatAvg = intSum[k] / 3.0f;
+    	for(int i = 0 ; i < intnum.length ; i++) {
+    		floatAvg = intSum[i] / 3.0f;
     		System.out.printf("%d번\t국어 : %d점\t영어 : %d점\t수학 : %d점\t총점 : 점\t평균 : %d점\n",
-    				k+1, intKor[k], intEng[k], intMath[k], intSum[k], floatAvg);
+    				i+1, intKor[i], intEng[i], intMath[i], intSum[i], floatAvg);
     	}
     	
     }

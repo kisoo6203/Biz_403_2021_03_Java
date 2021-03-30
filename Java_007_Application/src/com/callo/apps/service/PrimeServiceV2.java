@@ -31,6 +31,8 @@ public class PrimeServiceV2 {
 			if( index >= num) {
 				System.out.println(num + "는 소수");
 				// 소수가 아님을 출력
+			} else if(index < num) {
+				System.out.println(num + "는 소수가아님" );
 			}
 		}
 		

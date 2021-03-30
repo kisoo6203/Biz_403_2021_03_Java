@@ -23,11 +23,12 @@ public class Aray_01 {
 			//		:
 			//intSum += intKors[99]
 			intSum += intKors[i];
+			
 		}
 		for(int i = 0 ; i < 100 ; i++) {
 			System.out.printf("학생 %d : %d\n",i+1,intKors[i]);
 		}
 		System.out.println("-------------------------------");
-		System.out.printf("총점:%d, 평균:", intSum);
+		System.out.printf("총점:%d, 평균:%d", intSum);
 	}
 }

@@ -20,9 +20,10 @@ public class KeyInput_06 {
 			nsV1.checkEven();
 			nsV1.checkPrime();
 			System.out.println(LinesService.dLines(50));
-			System.out.print("계속할까요? (Yes:1, No:0");
+			System.out.print("계속할까요? (Yes:1, No:0)");
 			int yesNo = scan.nextInt();
 			if(yesNo == 0) {
+				System.out.println("입력을 종료합니다");
 				break;
 			
 		}
