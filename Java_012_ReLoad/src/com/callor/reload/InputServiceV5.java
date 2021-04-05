@@ -9,11 +9,11 @@ import com.callor.reload.model.NumberVO;
 public class InputServiceV5 {
 	
 	Scanner scan;
-	List<NumberVO> numlist;
+	List<NumberVO> numList;
 	
 	public InputServiceV5(){
 		scan = new Scanner(System.in);
-		numlist = new ArrayList<NumberVO>();
+		numList = new ArrayList<NumberVO>();
 				
 	}
 	public void InputNum() {
