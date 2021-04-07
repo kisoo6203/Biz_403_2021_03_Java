@@ -82,7 +82,7 @@ public class InputServiceV2 {
 		}
 		// this.inputValue(title); 
 		// Integer intNum = this.inputValue(title);
-		// Integer intNum = this.inputValue(msgTitle;  순서
+		// Integer intNum = this.inputValue(msgTitle);  순서
 	}
 	
 	public Integer inputValue(String title) {

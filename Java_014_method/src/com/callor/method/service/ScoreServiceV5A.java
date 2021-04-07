@@ -49,9 +49,10 @@ public class ScoreServiceV5A {
 		for(int index = 0 ; index < korList.size() ; index++) {
 			System.out.print(korList.get(index) + "\t");
 			System.out.print(engList.get(index) + "\t");
-			System.out.print(mathList.get(index) + "\n");
+			System.out.print(mathList.get(index) + "\t");
 			intSum = korList.get(index) + engList.get(index) + mathList.get(index);
 			floatAvg = intSum / 3.0f;
+			System.out.printf("%d\t %3.2f\n",intSum, floatAvg);
 		}
 		System.out.println("=".repeat(50));
 		
@@ -61,6 +62,7 @@ public class ScoreServiceV5A {
 	public void inputScore1() {
 		
 		for(int st = 0 ; st < 5 ; st++) {
+			System.out.printf("%d 번의 점수입력\n", st+1);
 			Integer[] scores = new Integer[subject.length];
 			for(int sb = 0 ; sb < subject.length ; sb++) {
 				scores[sb] = inService.inputValue(subject[sb], 0, 100);
