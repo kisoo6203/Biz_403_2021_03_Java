@@ -38,12 +38,13 @@ public class InputNumberV1 {
 		while (true) {
 			Integer retNum = this.inputValue(title);
 			if (retNum == null) {
+				System.out.println("종료");
 				return null;
 			} else if (retNum < start || retNum > end) {
 				System.out.printf("입력값은 %d ~ %d " + "범위이어야 합니다\n", start, end);
 				continue;
 			}
-			return null;
+			return retNum;
 		}
 
 	}
