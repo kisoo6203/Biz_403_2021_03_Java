@@ -6,16 +6,20 @@ import java.util.Scanner;
 
 import com.callor.app.model.ScoreVO;
 import com.callor.app.service.ScoreService;
+import com.kisoo.standard.InputService;
+import com.kisoo.standard.impl.InputServiceImplV1;
 
 public class ScoreServiceImplV1 implements ScoreService {
 
 	List<ScoreVO> scoreList;
+	InputService inService;
 	Scanner scan;
 	String stuName;
 	String[] subject;
 	int num = 0;
 
 	public ScoreServiceImplV1() {
+		inService = new InputServiceImplV1();
 		scoreList = new ArrayList<ScoreVO>();
 		scan = new Scanner(System.in);
 		subject = new String[] { "국어", "영어", "수학" };
@@ -107,6 +111,7 @@ public class ScoreServiceImplV1 implements ScoreService {
 			scoreVO.setKor(scores[0]);
 			scoreVO.setEng(scores[1]);
 			scoreVO.setMath(scores[2]);
+			scoreList.add(scoreVO);
 			if (num % 5 == 0) {
 				break;
 			}
@@ -117,7 +122,25 @@ public class ScoreServiceImplV1 implements ScoreService {
 
 	@Override
 	public void printScore() {
-		// TODO Auto-generated method stub
+						
+		System.out.println("=".repeat(70));
+		System.out.println("번호\t이름\t국어\t영어\t수학\t총점\t평균");
+		System.out.println("-".repeat(70));
+		
+		for(int i = 0; i < scoreList.size(); i++) {
+			System.out.printf("%s\t",scoreList.get(i).getNum());
+			System.out.printf("%s\t",scoreList.get(i).getName());
+			System.out.printf("%s\t",scoreList.get(i).getKor());
+			System.out.printf("%s\t",scoreList.get(i).getEng());
+			System.out.printf("%s\t",scoreList.get(i).getMath());
+			System.out.printf("%s\t",scoreList.get(i).getTotal());
+			System.out.printf("%s\t\n",scoreList.get(i).getAvg());
+			
+			
+			
+		}
+		System.out.println("-".repeat(70));
+		
 
 	}
 
