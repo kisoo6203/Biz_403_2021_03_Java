@@ -1,10 +1,11 @@
-package com.kisoo.standard;
+package com.kisoo.standard.exec;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 
+import com.kisoo.standard.InputService;
 import com.kisoo.standard.impl.InputServiceImplV1;
 import com.kisoo.standard.impl.InputServiceImplV2;
 
