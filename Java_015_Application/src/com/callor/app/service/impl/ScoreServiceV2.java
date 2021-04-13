@@ -31,6 +31,7 @@ public class ScoreServiceV2 extends ScoreServiceImplV1A {
 			for (index = 0; index < scoreList.size(); index++) {
 				ScoreVO2 vo = scoreList.get(index);
 				if (vo.getNum().equals(strNum)) {
+					
 					break;
 				}
 			}
