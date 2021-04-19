@@ -19,7 +19,8 @@ public class WordServiceImplV2 extends WordServiceImplV1A {
 				int index1 = rnd.nextInt(strWords.length);
 				int index2 = rnd.nextInt(strWords.length);
 
-				String temp = strWords[index1];
+				String temp;
+				temp = strWords[index1];
 				strWords[index1] = strWords[index2];
 				strWords[index2] = temp;
 			}
