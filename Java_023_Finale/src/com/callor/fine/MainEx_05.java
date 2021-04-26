@@ -17,16 +17,16 @@ public class MainEx_05 {
 		// 배열 100개에 저장된 값중에서 소수인 값들만 출력
 		for(int i = 0 ; i < nums.length ; i++) {
 			int index = 0;
-			
-			for(index = 2 ; index < nums.length ; index++) {
-				if(? % ?? == 0) {
+						
+			for(index = 2 ; index < nums[i] ; index++) {
+				if(nums[i] % index == 0) {
 					break;
 				}
 			}
-			if( ? < ??) {
-				System.out.println();
+			if( index < nums[i]) {
+				System.out.println(nums[i] + "는 소수가 아님");
 			} else {
-				System.out.println();
+				System.out.println(nums[i] + "는 소수임");
 			}
 		}
 		// 물음표만 볼게 아니라 오류가 난 이유를 확실히 알 것

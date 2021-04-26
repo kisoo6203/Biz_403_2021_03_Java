@@ -10,12 +10,14 @@ public class MainEx_06 {
 		
 		List<ScoreVO> scoreList = null;
 		
+		
 		for(int i = 0 ; i < 10 ; i++) {
 			
 			ScoreVO scoreVO = null;
+			scoreVO = new ScoreVO(); // 생성자 만들기
 			scoreVO.setNum("0001");
 			scoreVO.setKor(90);
-			
+						
 			scoreList.add(scoreVO);
 			
 			// 오류가 나는 이유 파악하기

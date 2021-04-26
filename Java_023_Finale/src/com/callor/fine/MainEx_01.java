@@ -44,7 +44,7 @@ public class MainEx_01 {
 			intSum += i;
 		}
 		System.out.println("1 ~ 100까지 덧셈결과 : " + intSum);
-		
+				
 	}
 
 }

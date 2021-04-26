@@ -33,11 +33,11 @@ public class App_06 {
 		intnum = intSum - (intSum / int500);
 		intnum1 = intnum - (intnum1 / int100);
 		intnum2 = intnum1 - (intnum2 / int50);
-		intnum3 = 
+		 
 		
 		
 		
-		System.out.println("5만원권 %d매", intnum);
+		
 		
 		
 	}

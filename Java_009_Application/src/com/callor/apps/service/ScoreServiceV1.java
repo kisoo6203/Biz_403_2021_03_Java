@@ -38,7 +38,7 @@ public class ScoreServiceV1 {
 				if( intKor[i] > 100) {
 					System.out.println("점수입력범위를 초과했습니다.");
 					System.out.println("다시 입력 하세요");
-					intKor[i] = scan.nextInt();
+					continue;
 				}
 			}
 			System.out.printf("%d번의 영어점수를 입력하세요.\n", num);
